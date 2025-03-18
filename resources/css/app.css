@@ -1,2 +1,6 @@
 @import 'tailwindcss' theme(static);
 @import '@nuxt/ui';
+
+.input-error > input {
+  @apply w-full gap-1.5 rounded-[calc(var(--ui-radius)*1.5)] border-0 bg-(--ui-bg) px-2.5 py-1.5 text-sm text-(--ui-text-highlighted) ring ring-(--ui-error) transition-colors ring-inset placeholder:text-(--ui-text-dimmed) focus:outline-none focus-visible:ring-2 focus-visible:ring-(--ui-error) focus-visible:ring-inset disabled:cursor-not-allowed disabled:opacity-75;
+}
