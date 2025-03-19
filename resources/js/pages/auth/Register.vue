@@ -19,10 +19,10 @@ const onSubmit = () => {
 
 <template>
   <AuthLayout
-    title="Log in to your account"
-    description="Enter your email and password below to log in"
+    title="Create an account"
+    description="Enter your details below to create your account"
   >
-    <Head title="Log in" />
+    <Head title="Register" />
 
     <UForm :state="form" @submit.prevent="onSubmit" class="w-full space-y-6">
       <UFormField label="Name" :required="true">
