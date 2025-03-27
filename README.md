@@ -25,4 +25,4 @@ Below is a list of all the technologies that Genesis has been **built with**:
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/stursby/nuxt-ui-starter/blob/main/LICENSE) for more information.
