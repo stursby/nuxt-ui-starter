@@ -1,3 +1,6 @@
+> [!WARNING]
+> This project is still under development
+
 ## Nuxt UI Starter
 
 A Laravel starter kit using Nuxt UI!
