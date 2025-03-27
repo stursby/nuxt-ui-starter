@@ -28,6 +28,15 @@ const onSubmit = () => {
   >
     <Head title="Log in" />
 
+    <UAlert
+      v-if="status"
+      :description="status"
+      icon="i-lucide-circle-alert"
+      color="neutral"
+      variant="outline"
+      class="mb-8"
+    />
+
     <UForm :state="form" @submit.prevent="onSubmit" class="w-full space-y-6">
       <UFormField label="Email" :required="true">
         <UInput
@@ -46,6 +55,11 @@ const onSubmit = () => {
           :class="{ 'input-error': form.errors.password }"
         />
         <InputError :message="form.errors.password" />
+        <template #hint>
+          <Link :href="route('password.request')" class="text-sm"
+            >Forgot password?</Link
+          >
+        </template>
       </UFormField>
 
       <UCheckbox label="Remember me" v-model="form.remember" />
