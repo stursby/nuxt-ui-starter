@@ -19,7 +19,7 @@ Then, run `comopser run dev` to run the asset watcher, and you're good to go!
 
 ## Built With
 
-Below is a list of all the technologies that Genesis has been **built with**:
+Below is a list of all the technologies this starter kit has been **built with**:
 
 - [Laravel](https://laravel.com)
 - [Inertia.js](https://inertiajs.com)
